@@ -1,0 +1,18 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+<div class="container-fluid">
+    <h1>Learning Log</h1>
+</div>
+{% endblock header %}
+
+{% block content %}
+<div>
+    <h2>
+        <a href="{% url 'users:register' %}">Register</a> if this your first time hear.
+        You can make own learning log,list ant topics which do you want to do.
+        If you found bugs or something you want to change,don't be silent,tell me what did you find or what you want to change.
+
+    </h2>
+</div>
+{% endblock content %}
